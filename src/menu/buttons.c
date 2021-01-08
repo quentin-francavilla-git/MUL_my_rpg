@@ -44,9 +44,9 @@ void play(v_var *a)
     && a->_base->mouse.y > a->menu->play_rect.top &&
     a->_base->mouse.y < a->menu->play_rect.top + 98
     && a->menu->help_tips == 0) {
-        //sfMusic_play(a->music->desert);
-        //sfMusic_setLoop(a->music->desert, sfTrue);
-        //sfMusic_stop(a->music->stand_proud);
+        // sfMusic_play(a->music->desert);
+        // sfMusic_setLoop(a->music->desert, sfTrue);
+        // sfMusic_stop(a->music->stand_proud);
         a->_ptr->status = 0;
     }
 }

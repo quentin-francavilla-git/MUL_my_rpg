@@ -5,8 +5,8 @@
 ** my.h
 */
 
-#ifndef RPG_H_
-#define RPG_H
+    #ifndef RPG_H_
+    #define RPG_H
 
 #include "lib.h"
 #include <SFML/Graphics.h>
@@ -46,14 +46,14 @@ typedef struct s_window
 
 typedef struct s_music
 {
-    //sfMusic *hit;
-    //sfMusic *fight;
-    //sfMusic *ora;
-    //sfMusic *stand_proud;
-    //sfMusic *desert;
-    //sfMusic *boss;
-    //sfMusic *last_zone;
-    //sfMusic *gg;
+    // sfMusic *hit;
+    // sfMusic *fight;
+    // sfMusic *ora;
+    // sfMusic *stand_proud;
+    // sfMusic *desert;
+    // sfMusic *boss;
+    // sfMusic *last_zone;
+    // sfMusic *gg;
 } t_music;
 
 typedef struct s_base

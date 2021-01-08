@@ -20,9 +20,9 @@ void win_event(v_var *a)
 {
     if (a->dio->dio_ded == 1 && a->rpg->fight != 1
     && sfKeyboard_isKeyPressed(sfKeySpace)) {
-        //sfMusic_stop(a->music->last_zone);
-        //sfMusic_play(a->music->gg);
-        //sfMusic_setLoop(a->music->gg, sfTrue);
+        // sfMusic_stop(a->music->last_zone);
+        // sfMusic_play(a->music->gg);
+        // sfMusic_setLoop(a->music->gg, sfTrue);
         a->hud_other->gg += 1;
     }
     if (a->hud_other->gg >= 3) {

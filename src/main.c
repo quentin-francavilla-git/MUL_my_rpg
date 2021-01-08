@@ -77,5 +77,6 @@ int main(int ac, char **av)
         window(a, av);
         return (0);
     }
+    free(a);
     return (0);
 }

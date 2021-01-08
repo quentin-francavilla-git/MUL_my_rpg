@@ -12,7 +12,7 @@ void variables_stats2(v_var *a)
 {
     a->stats->xp = 0;
     a->stats->xp_need = 500;
-    a->stats->level = 5;
+    a->stats->level = 1;
     a->stats->strength_bonus = 0;
     a->stats->hp_bonus = 0;
     a->stats->strength = 1;

@@ -5,7 +5,8 @@
 ## M
 ##
 
-SRC	=	./src/*.c \
+SRC	=	./lib/my/*.c \
+		./src/*.c \
 		./src/create/*.c \
 		./src/tools/*.c \
 		./src/characters/jotaro/*.c \
@@ -36,16 +37,15 @@ SRC	=	./src/*.c \
 
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	my_rpg
+NAME	=	my_rpg.exe
 
 FLAG	=	-W -Wall -Werror -Wextra
 
 all:	$(NAME)
 
-$(NAME):	$(OBJ)
-	$(MAKE) -C lib/my
-	gcc $(SRC) -o $(NAME) -L./lib/my -lmy -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
-	rm -f $(OBJ)
+$(NAME):
+	gcc $(SRC) csfml/*.a -o $(NAME)
+
 clean:
 	rm -f $(OBJ)
 

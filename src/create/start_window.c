@@ -10,6 +10,8 @@
 
 void start_window(v_var *a)
 {
+    a->_base->window_pos.x = 0;
+    a->_base->window_pos.y = 0;
     a->_ptr->icon = sfImage_createFromFile("./img/icon.png");
     sfVideoMode video_mode = {1920, 1080, 32};
     a->_ptr->window = sfRenderWindow_create(video_mode, "The RPJoJo",
@@ -19,6 +21,6 @@ void start_window(v_var *a)
     sfRenderWindow_setPosition(a->_ptr->window, a->_base->window_pos);
     sfRenderWindow_setIcon(a->_ptr->window, 100, 100,
     sfImage_getPixelsPtr(a->_ptr->icon));
-    //sfMusic_play(a->music->stand_proud);
-    //sfMusic_setLoop(a->music->stand_proud, sfTrue);
+    // sfMusic_play(a->music->stand_proud);
+    // sfMusic_setLoop(a->music->stand_proud, sfTrue);
 }

@@ -28,9 +28,9 @@ void dial_door2(v_var *a)
         }
     }
     if (a->env->env == 9 && a->inv->inv_key_2 != 0) {
-        //sfMusic_stop(a->music->desert);
-        //sfMusic_play(a->music->last_zone);
-        //sfMusic_setLoop(a->music->last_zone, sfTrue);
+        // sfMusic_stop(a->music->desert);
+        // sfMusic_play(a->music->last_zone);
+        // sfMusic_setLoop(a->music->last_zone, sfTrue);
         fight_quit(a);
         a->jo->jotaro_position.x = -150;
         a->env->env = 10;

@@ -52,16 +52,16 @@ void reset_after_game(v_var *a)
 
 void music_fight(v_var *a)
 {
-    //sfMusic_stop(a->music->desert);
-    //sfMusic_stop(a->music->last_zone);
-    if (a->env->env == 9 || a->env->env == 13) {
-        //sfMusic_play(a->music->boss);
-        //sfMusic_setLoop(a->music->boss, sfTrue);
-    }
-    else {
-        //sfMusic_play(a->music->fight);
-        //sfMusic_setLoop(a->music->fight, sfTrue);
-    }
+    // sfMusic_stop(a->music->desert);
+    // sfMusic_stop(a->music->last_zone);
+    // if (a->env->env == 9 || a->env->env == 13) {
+    //     sfMusic_play(a->music->boss);
+    //     sfMusic_setLoop(a->music->boss, sfTrue);
+    // }
+    // else {
+    //     sfMusic_play(a->music->fight);
+    //     sfMusic_setLoop(a->music->fight, sfTrue);
+    // }
 }
 
 void rpg(v_var *a)

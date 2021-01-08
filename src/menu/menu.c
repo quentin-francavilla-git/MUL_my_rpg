@@ -43,8 +43,8 @@ void sound_on_off(v_var *a)
     a->_base->mouse.y < a->menu->rect_sound.top + 150
     && a->menu->settings_click == 1 && a->menu->sound_on == 0) {
         a->menu->sound_on = 1;
-        //sfMusic_play(a->music->stand_proud);
-        //sfMusic_setLoop(a->music->stand_proud, sfTrue);
+        // sfMusic_play(a->music->stand_proud);
+        // sfMusic_setLoop(a->music->stand_proud, sfTrue);
         sfSprite_setTexture(a->menu->s_sound, a->menu->t_sound_on, sfTrue);
     }
 }

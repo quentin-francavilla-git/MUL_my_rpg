@@ -11,12 +11,12 @@
 void destroy(v_var *a)
 {
     sfRenderWindow_destroy(a->_ptr->window);
-    //sfMusic_destroy(a->music->hit);
-    //sfMusic_destroy(a->music->fight);
-    //sfMusic_destroy(a->music->ora);
-    //sfMusic_destroy(a->music->stand_proud);
-    //sfMusic_destroy(a->music->desert);
-    //sfMusic_destroy(a->music->last_zone);
-    //sfMusic_destroy(a->music->boss);
-    //sfMusic_destroy(a->music->gg);
+    // sfMusic_destroy(a->music->hit);
+    // sfMusic_destroy(a->music->fight);
+    // sfMusic_destroy(a->music->ora);
+    // sfMusic_destroy(a->music->stand_proud);
+    // sfMusic_destroy(a->music->desert);
+    // sfMusic_destroy(a->music->last_zone);
+    // sfMusic_destroy(a->music->boss);
+    // sfMusic_destroy(a->music->gg);
 }

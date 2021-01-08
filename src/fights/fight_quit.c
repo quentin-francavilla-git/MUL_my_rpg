@@ -10,18 +10,18 @@
 
 void music_quit_fight(v_var *a)
 {
-    if (a->rpg->fight == 1) {
-        if (a->env->env >= 10 && a->env->env <= 13) {
-            //sfMusic_play(a->music->last_zone);
-            //sfMusic_setLoop(a->music->last_zone, sfTrue);
-        }
-        else {
-            //sfMusic_play(a->music->desert);
-            //sfMusic_setLoop(a->music->desert, sfTrue);
-        }
-        //sfMusic_stop(a->music->fight);
-        //sfMusic_stop(a->music->boss);
-    }
+    // if (a->rpg->fight == 1) {
+    //     if (a->env->env >= 10 && a->env->env <= 13) {
+    //         sfMusic_play(a->music->last_zone);
+    //         sfMusic_setLoop(a->music->last_zone, sfTrue);
+    //     }
+    //     else {
+    //         sfMusic_play(a->music->desert);
+    //         sfMusic_setLoop(a->music->desert, sfTrue);
+    //     }
+    //     sfMusic_stop(a->music->fight);
+    //     sfMusic_stop(a->music->boss);
+    // }
 }
 
 void fight_quit2(v_var *a)

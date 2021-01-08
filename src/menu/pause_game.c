@@ -21,9 +21,9 @@ void resume(v_var *a)
 void title_reset(v_var *a)
 {
     sfRenderWindow_setMouseCursorVisible(a->_ptr->window, sfTrue);
-    //sfMusic_stop(a->music->desert);
-    //sfMusic_play(a->music->stand_proud);
-    //sfMusic_setLoop(a->music->stand_proud, sfTrue);
+    // sfMusic_stop(a->music->desert);
+    // sfMusic_play(a->music->stand_proud);
+    // sfMusic_setLoop(a->music->stand_proud, sfTrue);
 }
 
 void title(v_var *a)
