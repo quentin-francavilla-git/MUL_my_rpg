@@ -18,7 +18,13 @@
 
 CSFML Library (https://www.sfml-dev.org/download/csfml/index-fr.php)
 
-## Usage
+## Usage on windows
+
+```bash
+Just launch my_rpg.exe !
+```
+
+## Usage on Unix
 
 ```bash
 ./my_rpg
